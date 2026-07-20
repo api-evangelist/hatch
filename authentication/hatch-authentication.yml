@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: openapi/hatch-openapi-original.json
+docs: https://docs.usehatchapp.com/integrations/hatch-api/hatch-api-reference
+summary:
+  types:
+  - http
+  scheme: bearer
+  token_type: api-key
+  token_management: >-
+    API keys are created and managed in the API Keys tab of the App Marketplace
+    on the Hatch platform. Keys are passed as an HTTP bearer token.
+schemes:
+- name: authorization
+  type: http
+  scheme: bearer
+  in: header
+  header: Authorization
+  format: 'Authorization: Bearer <api_key>'
+  sources:
+  - openapi/hatch-openapi-original.json

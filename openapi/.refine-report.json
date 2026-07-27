@@ -1,0 +1,14 @@
+{
+  "provider": "hatch",
+  "sources": [
+    "hatch-contacts-api-openapi.yml"
+  ],
+  "outputs": [
+    "hatch-contacts-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}

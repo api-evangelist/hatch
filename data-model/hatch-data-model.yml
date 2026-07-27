@@ -1,0 +1,31 @@
+generated: '2026-07-19'
+method: derived
+source: openapi/hatch-openapi-original.json
+entities:
+- name: Contact
+  description: >-
+    A lead or customer in Hatch, upserted via the public API and enrolled into
+    campaigns for voice/SMS/email outreach. Deduplicated on phoneNumber, then
+    email, then externalID.
+  id: id
+  id_type: string
+  id_format: uuid
+  fields:
+  - {name: id, type: string, description: Hatch-generated contact ID (uuid)}
+  - {name: firstName, type: string}
+  - {name: lastName, type: string}
+  - {name: email, type: string, format: email}
+  - {name: phoneNumber, type: string}
+  - {name: source, type: string, required: true, description: Must match a custom source configured in the App Marketplace}
+  - {name: status, type: string, description: Free-form status from the customer's system}
+  - {name: externalID, type: string, description: Lead ID from the customer's external system}
+  - {name: externalContactID, type: string, description: Contact ID from the customer's external system}
+  - {name: externalCreatedAt, type: string, format: date-time}
+  - {name: externalUpdatedAt, type: string, format: date-time}
+  - {name: details, type: object, description: Arbitrary custom fields}
+relationships: []
+notes: >-
+  The published API exposes a single write entity (Contact). externalID/
+  externalContactID are id-references into the customer's source system rather
+  than links to other Hatch API entities, so no intra-API relationships are
+  derivable from the current spec.

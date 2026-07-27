@@ -1,0 +1,9 @@
+generated: '2026-07-19'
+method: generated
+source: openapi/hatch-openapi-original.json
+skills:
+- file: hatch-upsert-contact.md
+  name: Upsert a contact into Hatch
+  api: openapi/hatch-openapi-original.json
+  operations:
+  - HatchWeb.V1.Integrations.ContactController.upsert

@@ -1,0 +1,31 @@
+overlay: 1.0.0
+info:
+  title: API Evangelist enhancements for Hatch
+  version: 1.0.0
+extends: openapi/hatch-openapi-original.json
+actions:
+- target: $.info
+  update:
+    description: >-
+      Hatch public REST API. The primary operation upserts a contact into a
+      Hatch campaign for AI-driven voice, SMS, and email outreach. Contacts are
+      deduplicated on phoneNumber, then email, then externalID. Authentication is
+      an HTTP bearer token (API key) managed in the App Marketplace. Rate limit:
+      100 requests per 10 seconds.
+    x-apievangelist-enrichment:
+      authentication: authentication/hatch-authentication.yml
+      conventions: conventions/hatch-conventions.yml
+      errors: errors/hatch-problem-types.yml
+      webhooks: asyncapi/hatch-webhooks.yml
+      rate_limits: rate-limits/hatch-rate-limits.yml
+      data_model: data-model/hatch-data-model.yml
+- target: $.info.contact
+  update:
+    name: Hatch API Support
+    url: https://docs.usehatchapp.com/integrations/hatch-api/hatch-api-reference
+- target: $.info.x-rate-limit
+  update:
+    description: 100 requests per 10 seconds
+- target: $.servers[0]
+  update:
+    description: Hatch production API host

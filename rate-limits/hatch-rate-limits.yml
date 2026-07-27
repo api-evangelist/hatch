@@ -1,0 +1,11 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.usehatchapp.com/integrations/hatch-api/hatch-api-reference
+rate_limits:
+- scope: global
+  limit_count: 100
+  window_seconds: 10
+  description: The Hatch public API allows 100 requests per 10 seconds.
+notes: >-
+  Published in the Hatch API reference. No per-plan or per-endpoint limits and no
+  documented rate-limit response headers were found.

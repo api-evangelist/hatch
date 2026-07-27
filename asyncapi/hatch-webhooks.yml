@@ -1,0 +1,37 @@
+generated: '2026-07-19'
+method: searched
+type: Webhooks
+source: https://docs.usehatchapp.com/integrations/hatch-webhooks/webhooks-basics
+docs:
+- https://docs.usehatchapp.com/integrations/hatch-webhooks/webhooks-basics
+- https://docs.usehatchapp.com/integrations/hatch-webhooks/creating-managing-webhooks
+delivery:
+  transport: http
+  method: POST
+  content_type: application/json
+  destination: >-
+    A customer-configured Endpoint URL set when creating a webhook in Hatch
+    (may be a Zapier-provided catch URL for no-code flows).
+security:
+  signing: EdDSA
+  header: hatch-webhook-verification
+  verification: >-
+    Hatch signs each webhook with a private key; a public key is provided so the
+    receiver can verify request authenticity via the hatch-webhook-verification
+    header.
+events:
+- name: Opt-Out
+- name: Opt-In
+- name: Contact Created
+- name: Contact Edited
+- name: Contact in Campaign
+- name: Assistant Conversation Completed
+- name: Assistant Appointment Scheduled
+- name: Contact (Email or Phone) Expired
+- name: Contact Call Dispositioned
+- name: Campaign Third Party Launched
+- name: Campaign Third Party Failed
+notes: >-
+  Hatch publishes no AsyncAPI document; this is the webhook event catalog
+  captured verbatim from the webhook docs. A live payload preview is shown in
+  the UI as event triggers are selected. No AsyncAPI spec is fabricated.

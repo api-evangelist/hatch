@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: derived
+status: candidate
+source: openapi/hatch-openapi-original.json
+server:
+  name: hatch
+  transport: http
+tools:
+- name: upsert_contact
+  description: >-
+    Create or update a Hatch contact (deduplicated on phoneNumber, then email,
+    then externalID) and enroll it into a campaign for voice/SMS/email outreach.
+  source_operation: openapi/hatch-openapi-original.json#/paths/~1v1~1contacts/post
+notes: >-
+  No official hosted or remote MCP server was found for Hatch. This is a
+  candidate tool list derived from the published OpenAPI operations. No
+  MCPServer pointer is wired in apis.yml because no server is genuinely
+  published.

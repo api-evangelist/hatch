@@ -1,0 +1,51 @@
+generated: '2026-07-19'
+method: searched
+source: openapi/hatch-openapi-original.json
+docs: https://docs.usehatchapp.com/integrations/hatch-api/hatch-api-reference
+summary: >-
+  Cross-cutting request/response semantics for the Hatch public REST API,
+  derived from the published OpenAPI and the API reference docs.
+authentication:
+  style: http-bearer
+  header: Authorization
+  format: 'Authorization: Bearer <api_key>'
+  ref: authentication/hatch-authentication.yml
+base_url: https://api.usehatchapp.com
+versioning:
+  scheme: uri-path
+  current: v1
+  example: https://api.usehatchapp.com/v1/contacts
+media_type:
+  request: application/json
+  response: application/json
+idempotency:
+  key_header: null
+  model: natural-key-upsert
+  detail: >-
+    Hatch does not document an Idempotency-Key header. The primary write is an
+    upsert whose conflict resolution makes repeated identical calls converge:
+    matches are resolved in precedence order on phoneNumber, then email, then
+    (for opportunities) externalID, updating the existing record rather than
+    creating a duplicate. This yields natural-key idempotency for contact
+    ingestion but is not a request-replay idempotency contract.
+pagination:
+  style: none
+  detail: The published upsert API is not a collection/list surface; no pagination is defined.
+error_envelope:
+  field: errors
+  format: json:api
+  ref: errors/hatch-problem-types.yml
+rate_limiting:
+  documented_limit: 100 requests per 10 seconds
+  ref: rate-limits/hatch-rate-limits.yml
+required_fields:
+  source: >-
+    Every contact must include a `source` value that matches a custom source
+    configured in the App Marketplace; unknown sources are rejected.
+events:
+  webhooks: true
+  ref: asyncapi/hatch-webhooks.yml
+  detail: >-
+    Outbound webhooks are signed with EdDSA; the signature is delivered in the
+    `hatch-webhook-verification` header and verified against Hatch's published
+    public key.

@@ -1,0 +1,34 @@
+generated: '2026-07-19'
+method: derived
+source: openapi/hatch-openapi-original.json
+format: json:api
+envelope:
+  field: errors
+  shape: >-
+    Errors are returned as a top-level `errors` array. Each error object carries
+    a `title` (short human-readable summary), a `source` object with a JSON
+    Pointer (`source.pointer`) to the offending request attribute, and a
+    `detail` (specific explanation). This follows the JSON:API error object
+    convention rather than RFC 9457 problem+json.
+problems:
+- status: 422
+  title: Unprocessable Entity
+  description: >-
+    Validation failed for the contact upsert request. One or more attributes are
+    missing, malformed, or reference an invalid value (for example an unknown
+    `source`). The response `errors[]` array pinpoints each failing attribute via
+    `source.pointer`.
+  media_type: application/json
+  schema: JsonErrorResponse
+  example:
+    errors:
+    - title: Invalid value
+      source:
+        pointer: /data/attributes/petName
+      detail: null value where string expected
+  source_operation: openapi/hatch-openapi-original.json#/paths/~1v1~1contacts/post
+notes: >-
+  The published OpenAPI declares only 200 and 422 responses for the upsert
+  operation. The API reference documents the general convention that 4xx codes
+  signal client errors (missing/invalid parameters) and 5xx codes signal
+  server errors (rare). No dedicated numeric error-code registry is published.

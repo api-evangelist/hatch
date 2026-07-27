@@ -1,0 +1,151 @@
+# Hatch Documentation
+
+## Docs
+
+- [10DLC Registration](https://docs.usehatchapp.com/academy/account-setup/10dlc-registration.md): 10DLC (10-Digit Long Code) is a system in the U.S. that allows businesses to send SMS messages using standard 10-digit phone numbers. It improves message deliverability and reduces spam by requiring registration and carrier vetting for business text messaging.
+- [Create Workspaces](https://docs.usehatchapp.com/academy/account-setup/create-workspaces.md): Organize your Hatch account by creating workspaces for different teams, locations, or business lines.
+- [Invite Your Team](https://docs.usehatchapp.com/academy/account-setup/invite-your-team.md): Inviting your team is one of the first steps to getting everyone collaborating and closing more deals quickly.
+- [Business Profile](https://docs.usehatchapp.com/academy/ai-agents/business-profile.md): Configure your AI agent's business profile — the foundational information it uses to represent your company.
+- [Decision Tree](https://docs.usehatchapp.com/academy/ai-agents/decision-tree.md): Your Decision Tree is the roadmap behind your AI agent's conversations — it tells your agent what to say, when to say it, and how to handle every possible outcome.
+- [Persona & Knowledge](https://docs.usehatchapp.com/academy/ai-agents/persona-and-knowledge.md): Define your AI agent's name, personality, and the knowledge base it draws from when responding to customers.
+- [Voice AI](https://docs.usehatchapp.com/academy/ai-agents/voice-ai.md): Create and customize a fully functional Voice AI agent capable of handling customer calls, booking appointments, answering FAQs, and handing off to your team when needed.
+- [AI Column Setup](https://docs.usehatchapp.com/academy/core-functionality/ai-column-setup.md): Setting up AI Conversation Outcomes ensures your AI assistant knows exactly how to handle each type of customer response — keeping conversations moving toward booked appointments and closed jobs.
+- [Audiences](https://docs.usehatchapp.com/academy/core-functionality/audiences.md): Build dynamic contact lists using Audience Builder to target the right people with the right campaigns.
+- [Campaigns](https://docs.usehatchapp.com/academy/core-functionality/campaigns.md): Build campaigns that automatically send messages to contacts via text, email, voice, and voicemail drop.
+- [Removal Rules](https://docs.usehatchapp.com/academy/core-functionality/removal-rules.md): Set up removal rules to automatically stop messaging contacts when they reach key milestones or statuses.
+- [Salesboard](https://docs.usehatchapp.com/academy/core-functionality/salesboard.md): Use the Salesboard to manage active conversations, track contact status, and take action from one view.
+- [Workflows](https://docs.usehatchapp.com/academy/core-functionality/workflows.md): Automate how contacts move between campaigns using Workflows triggered by CRM events and contact activity.
+- [A Day in the Life](https://docs.usehatchapp.com/academy/csr-training/a-day-in-the-life.md): Walk through a typical day for a CSR using Hatch — from handling inbound replies to following up on open conversations.
+- [Contact Card Functionality](https://docs.usehatchapp.com/academy/csr-training/contact-card-functionality.md): Learn how to use the contact card to view history, send messages, update statuses, and manage conversations.
+- [Salesboard Filters](https://docs.usehatchapp.com/academy/csr-training/salesboard-filters.md): Use Salesboard filters to focus on the right contacts and conversations at the right time.
+- [Workspace Settings](https://docs.usehatchapp.com/academy/csr-training/workspace-settings.md): Configure workspace-level settings including call forwarding, recording, and business hours.
+- [CRM Integrations](https://docs.usehatchapp.com/academy/integrations/crm-integrations.md): Integrating your CRM with Hatch ensures your leads, contacts, and customer data flow seamlessly into your workspace — keeping your outreach automated, personalized, and powerful.
+- [Lead Sources](https://docs.usehatchapp.com/academy/integrations/lead-sources.md): Connect your lead sources to Hatch so new leads are automatically enrolled in the right campaigns.
+- [Hatch Academy](https://docs.usehatchapp.com/academy/overview.md): Step-by-step video lessons to get your Hatch account live — from first login to a fully trained team.
+- [Audience Templates](https://docs.usehatchapp.com/getting-started/audience-builder/audience-templates.md): Pre-built Audience Builder queries covering popular use cases
+- [10DLC Registration (TCPA Compliance)](https://docs.usehatchapp.com/getting-started/compliance/10dlc-registration-tcpa-compliance.md): What it is, why you need it for TCPA compliance, and how to get approved
+- [With all these new compliance rules, how can I make sure my messages get delivered?](https://docs.usehatchapp.com/getting-started/compliance/with-all-these-new-compliance-rules-how-can-i-make-sure-my-messages-get-delivered.md): Use this guide to create text campaigns that not only get delivered, but that also get responses.
+- [Calendar](https://docs.usehatchapp.com/getting-started/hatch-assistant/commands-calendar.md): Book appointments on your ServiceTitan calendar
+- [Service Area](https://docs.usehatchapp.com/getting-started/hatch-assistant/commands-service-area.md): Validate that a customer's location is within your service area
+- [Setup Guide](https://docs.usehatchapp.com/getting-started/hatch-assistant/hatch-assistant-setup-guide.md): Get a walkthrough of all the steps you need to set up your first AI agent in Hatch.
+- [Outbound Voice AI](https://docs.usehatchapp.com/getting-started/hatch-assistant/outbound-voice-ai.md)
+- [After Hours Bot](https://docs.usehatchapp.com/getting-started/hatch-assistant/voice-ai-after-hours-bot.md): Learn how to create and publish a separate Voice AI agent for after hours calls
+- [Live Transfers](https://docs.usehatchapp.com/getting-started/hatch-assistant/voice-at-live-transfers.md): How Hatch's Voice AI agent can connect callers to human users
+- [Core Campaigns and Use Cases ](https://docs.usehatchapp.com/getting-started/intro-to-hatch/core-campaigns.md)
+- [Hatch Glossary](https://docs.usehatchapp.com/getting-started/intro-to-hatch/hatch-glossary.md): This glossary covers the core building blocks of Hatch. Understanding these terms will make the rest of the Help Center easier to follow.
+- [Minimum Requirements for Using Hatch](https://docs.usehatchapp.com/getting-started/intro-to-hatch/minimum-requirements-for-using-hatch.md): Curious about what the technical requirements are to run Hatch? We've put together some helpful information about our supported browsers and operating systems (OS).
+- [What is Hatch?](https://docs.usehatchapp.com/getting-started/intro-to-hatch/what-is-hatch.md): Hatch is an AI-powered communication platform built for service businesses. It helps you respond to leads faster and follow up more consistently throughout the customer journey—across voice, SMS, and email. With everything in one place, you can deliver a better customer experience without juggling m…
+- [What is Speed to Lead?](https://docs.usehatchapp.com/getting-started/intro-to-hatch/what-is-speed-lead.md): Learn why and how to reach out to leads immediately.
+- [Calling in Campaigns](https://docs.usehatchapp.com/getting-started/messaging/calling-in-campaigns.md): Add phone calls to your campaign cadence
+- [Hatch Campaign Templates](https://docs.usehatchapp.com/getting-started/messaging/hatch-campaign-templates.md): How to view, implement, and modify Hatch campaign templates. Hatch campaign templates are recommended messaging sequences for specific use cases, to help you maximize response rates, reduce opt-out rates, and reduce spam rates. The duration, frequenc
+- [Hatch Delivery Status](https://docs.usehatchapp.com/getting-started/messaging/hatch-delivery-status.md): Learn where your texts are in the delivery process and what those statuses mean
+- [Overview](https://docs.usehatchapp.com/getting-started/messaging/overview.md)
+- [Working with Leads with Temporary Information in Hatch](https://docs.usehatchapp.com/getting-started/messaging/working-with-leads-with-temporary-information-ins-hatch.md): Find out what temporary or masked information is, and how to collect a lead's real information with Hatch.
+- [Bulk Export API](https://docs.usehatchapp.com/getting-started/reporting/bulk-export-api.md): Export BI-ready Hatch data sets into your analytics stack.
+- [Conversations](https://docs.usehatchapp.com/getting-started/reporting/conversations.md): A real-time log of recent conversations across Hatch.
+- [Dashboard](https://docs.usehatchapp.com/getting-started/reporting/dashboard.md): Real-time, disposition-based visibility into agent activity and outcomes across Hatch.
+- [Hatch Reporting](https://docs.usehatchapp.com/getting-started/reporting/hatch-reporting.md): All about the performance metrics available to you in Hatch reporting
+- [Account Settings Overview](https://docs.usehatchapp.com/how-to-use-hatch/account-settings/account-settings-overview.md)
+- [Add a Workspace](https://docs.usehatchapp.com/how-to-use-hatch/account-settings/add-a-workspace.md)
+- [Add or Remove a Member from Workspace](https://docs.usehatchapp.com/how-to-use-hatch/account-settings/add-or-remove-member-from-workspace.md)
+- [Deactivate a Workspace](https://docs.usehatchapp.com/how-to-use-hatch/account-settings/deactivate-a-workspace.md): This article covers how to deactivate a Workspace to your Hatch Account.
+- [Holidays](https://docs.usehatchapp.com/how-to-use-hatch/account-settings/holidays.md): Configure which holidays Hatch should respect when sending campaign messages.
+- [Managing Users](https://docs.usehatchapp.com/how-to-use-hatch/account-settings/managing-users.md): This article covers how to edit a User in Hatch.
+- [Managing Workspaces](https://docs.usehatchapp.com/how-to-use-hatch/account-settings/managing-workspaces.md)
+- [Remove User from Hatch](https://docs.usehatchapp.com/how-to-use-hatch/account-settings/remove-user-from-hatch.md)
+- [Audience Builder: Field Picker](https://docs.usehatchapp.com/how-to-use-hatch/audience-builder-v2/audience-builder-v2-field-picker.md)
+- [Audience Builder: Glossary and FAQ](https://docs.usehatchapp.com/how-to-use-hatch/audience-builder-v2/audience-builder-v2-glossary-and-faq.md)
+- [Audience Builder: Manage Data](https://docs.usehatchapp.com/how-to-use-hatch/audience-builder-v2/audience-builder-v2-manage-data.md)
+- [Audience Builder: Operators](https://docs.usehatchapp.com/how-to-use-hatch/audience-builder-v2/audience-builder-v2-operators.md)
+- [Audience Builder: Source Picker](https://docs.usehatchapp.com/how-to-use-hatch/audience-builder-v2/audience-builder-v2-source-picker.md): This article will outline what the Source Picker is and what it is used for
+- [Add Contact to Campaign from the Contact Card](https://docs.usehatchapp.com/how-to-use-hatch/board-contact-card/add-contact-to-campaign-from-the-contact-card.md): Adding a contact to campaign directly from the contact's conversation is a great way to keep your salesboard organized while still making sure contacts receive messages.
+- [Contact Card Basics](https://docs.usehatchapp.com/how-to-use-hatch/board-contact-card/contact-card-basics.md)
+- [Dispositions in Hatch](https://docs.usehatchapp.com/how-to-use-hatch/board-contact-card/dispositions-in-hatch.md): Here's how to track the results of your conversations in Hatch
+- [Salesboard Basics](https://docs.usehatchapp.com/how-to-use-hatch/board-contact-card/salesboard-basics.md): The salesboard is where most of your conversations with your customers will occur. This article will give you a breakdown of the major features of the salesboard, as well as how to customize the Board to fit your team’s workflow.
+- [Suggested Responses](https://docs.usehatchapp.com/how-to-use-hatch/board-contact-card/suggested-responses.md): Save repetitive messages as a suggested responses for your team. Add new responses from Workspace Settings.
+- [Organization-Level Business Hours](https://docs.usehatchapp.com/how-to-use-hatch/business-hours-features/organization-level-business-hours.md)
+- [Speed to Lead Alternate Messaging](https://docs.usehatchapp.com/how-to-use-hatch/business-hours-features/speed-to-lead-alternate-messaging.md)
+- [Workspace-Level Business Hours](https://docs.usehatchapp.com/how-to-use-hatch/business-hours-features/workspace-level-business-hours.md): Set the hours your workspace is open and configure an automatic after-hours SMS reply for contacts who reach out outside those hours.
+- [Campaign Basics](https://docs.usehatchapp.com/how-to-use-hatch/campaigns/campaign-basics.md)
+- [Campaign History](https://docs.usehatchapp.com/how-to-use-hatch/campaigns/campaign-history.md)
+- [Create a Campaign](https://docs.usehatchapp.com/how-to-use-hatch/campaigns/create-a-campaign.md): Creating a campaign is easy with campaign templates. We'll walk through how to make a campaign from start to finish.
+- [Launching Contacts Into Campaigns](https://docs.usehatchapp.com/how-to-use-hatch/campaigns/launching-contacts-into-campaigns.md)
+- [Removing Contacts from Campaign](https://docs.usehatchapp.com/how-to-use-hatch/campaigns/removing-contacts-from-campaigns.md)
+- [Snippets](https://docs.usehatchapp.com/how-to-use-hatch/campaigns/snippets.md): Personalize campaign messages with snippets to dynamically reference your contacts information
+- [The Sender Identification Requirement in Hatch](https://docs.usehatchapp.com/how-to-use-hatch/campaigns/the-sender-identification-requirement-in-hatch.md): All SMS messages in your Hatch Campaign sequences must include Sender-Identification
+- [Update a Campaign](https://docs.usehatchapp.com/how-to-use-hatch/campaigns/update-a-campaign.md)
+- [Using Voicemail Drops in Campaigns](https://docs.usehatchapp.com/how-to-use-hatch/campaigns/using-voicemail-drops-in-campaigns.md): Voicemails can be a powerful way to add personalization to your campaigns. In this tutorial, we'll walk through how to add voicemail drops to your campaigns.
+- [Adding and Importing Contacts](https://docs.usehatchapp.com/how-to-use-hatch/contacts/adding-and-importing-contacts.md)
+- [Contacts Page](https://docs.usehatchapp.com/how-to-use-hatch/contacts/contacts-page.md): Documentation for Contacts Page
+- [How do I Search in Hatch?](https://docs.usehatchapp.com/how-to-use-hatch/contacts/how-do-i-search-in-hatch.md): The true power of Hatch is being able to segment your customers to make sure to provide them with the right messaging at the right time. You can accomplish this by filtering your contacts before you put them in campaign.
+- [Importing Contacts with a CSV](https://docs.usehatchapp.com/how-to-use-hatch/contacts/importing-contacts-with-a-csv.md): The easiest way to get started is to import contacts into Hatch is through a .CSV file. This can be exported from your CRM, or wherever you keep customer information.
+- [Looking at Contact Information](https://docs.usehatchapp.com/how-to-use-hatch/contacts/looking-at-contact-information.md)
+- [Conversational Analytics](https://docs.usehatchapp.com/how-to-use-hatch/conversations/conversational-analytics.md)
+- [Conversations](https://docs.usehatchapp.com/how-to-use-hatch/conversations/conversations.md)
+- [Reset Password](https://docs.usehatchapp.com/how-to-use-hatch/frequently-asked-questions/reset-password.md)
+- ['The message From/To pair violates a blacklist rule' when sending messages](https://docs.usehatchapp.com/how-to-use-hatch/frequently-asked-questions/the-message-from-to-pair-violates-a-blacklist-rule-when-sending-messages.md)
+- [Changing or Adding your Mobile Number in Hatch](https://docs.usehatchapp.com/how-to-use-hatch/profile-settings/changing-or-adding-your-mobile-number-in-hatch.md)
+- [Notifications](https://docs.usehatchapp.com/how-to-use-hatch/profile-settings/notifications.md): Notifications in Hatch help you track conversations across different workspaces, or send text and email reminders when you're away from your computer
+- [Signing into Hatch](https://docs.usehatchapp.com/how-to-use-hatch/profile-settings/signing-into-hatch.md)
+- [Removal Rule Templates](https://docs.usehatchapp.com/how-to-use-hatch/removal-rules-templates.md): Create and Manage Removal Rules across Multiple Workflows using Templates
+- [Attribution Settings](https://docs.usehatchapp.com/how-to-use-hatch/reporting-settings/attribution-settings.md): Report on client outcomes, based on your own unique CRM setup.
+- [Configuring Dispositions](https://docs.usehatchapp.com/how-to-use-hatch/reporting-settings/configuring-dispositions.md): Create custom dispositions and define what counts as success.
+- [Workflows Overview](https://docs.usehatchapp.com/how-to-use-hatch/workflows/workflows-overview.md)
+- [Features](https://docs.usehatchapp.com/how-to-use-hatch/workspace-settings/features.md): Enable and manage the features available in your workspace.
+- [General Settings](https://docs.usehatchapp.com/how-to-use-hatch/workspace-settings/general-settings.md): Configure your workspace's core identity — its name, contact details, image, and timezone.
+- [Call Forwarding](https://docs.usehatchapp.com/how-to-use-hatch/workspace-settings/how-to-setup-call-forwarding-for-your-workspace.md): Redirect all incoming calls for a workspace to another phone number — useful if your team uses a call center or a dedicated office line.
+- [Overview](https://docs.usehatchapp.com/how-to-use-hatch/workspace-settings/overview.md): Configure your workspace's name, hours, features, and team from Workspace Configs.
+- [Recording calls in Hatch](https://docs.usehatchapp.com/how-to-use-hatch/workspace-settings/recording-calls-in-hatch.md)
+- [Team](https://docs.usehatchapp.com/how-to-use-hatch/workspace-settings/team.md): View your workspace's team members and their notification settings at a glance.
+- [Voicemail Greeting](https://docs.usehatchapp.com/how-to-use-hatch/workspace-settings/voicemail-greeting.md): Record or upload a custom voicemail greeting that plays when a call to your workspace goes unanswered.
+- [Hover Integration](https://docs.usehatchapp.com/integrations/contractor-tools/hover-integration.md)
+- [AccuLynx](https://docs.usehatchapp.com/integrations/crm-field-management-systems/acculynx-integration.md): What is Hatch's AccuLynx integration, how it works, and where to begin.
+- [CertaOne](https://docs.usehatchapp.com/integrations/crm-field-management-systems/certaone-integration.md): In this article, we'll cover the basics of our integration with CertaOne. From what it does, to how to get started, and even frequently asked questions.
+- [How to switch to the Hatch application of ServiceTitan](https://docs.usehatchapp.com/integrations/crm-field-management-systems/how-to-switch-to-the-hatch-application-of-servicetitan.md): Get the steps and all your questions answered here
+- [Hubspot](https://docs.usehatchapp.com/integrations/crm-field-management-systems/hubspot-integration.md): In this article, we'll cover the basics of our integration with Hubspot. From what it does, to how to get started, and even frequently asked questions.
+- [improveit360 (i360)](https://docs.usehatchapp.com/integrations/crm-field-management-systems/improveit360-i360.md): An automatic and bi-directional sync between Hatch and improveit360
+- [improveit360 (i360) Lightning](https://docs.usehatchapp.com/integrations/crm-field-management-systems/improveit360-i360-lightning.md): An automatic and bi-directional sync between Hatch and improveit360
+- [Jobber](https://docs.usehatchapp.com/integrations/crm-field-management-systems/jobber-integration.md): What Hatch's Jobber integration is, how it works, and where to begin.
+- [JobNimbus](https://docs.usehatchapp.com/integrations/crm-field-management-systems/jobnimbus-integration.md): In this article, we'll cover the basics of our integration with JobNimbus. From what it does, to how to get started, and even frequently asked questions.
+- [JobProgress](https://docs.usehatchapp.com/integrations/crm-field-management-systems/jobprogress-integration.md): In this article, we'll cover the basics of our integration with JobProgress. From what it does, to how to get started, and even frequently asked questions.
+- [LeadPerfection](https://docs.usehatchapp.com/integrations/crm-field-management-systems/leadperfection.md): An automatic and bi-directional sync between Hatch and LeadPerfection
+- [MarketSharp](https://docs.usehatchapp.com/integrations/crm-field-management-systems/marketsharp.md): An automatic and Bi-Directional sync between Hatch and Marketsharp
+- [Salesforce Enterprise](https://docs.usehatchapp.com/integrations/crm-field-management-systems/salesforce-enterprise.md): What is the Salesforce Enterprise integration, how it works, and where to begin.
+- [Salesforce (legacy)](https://docs.usehatchapp.com/integrations/crm-field-management-systems/salesforce-legacy.md): An automatic and bi-directional sync between Hatch and Salesforce.
+- [ServiceMinder](https://docs.usehatchapp.com/integrations/crm-field-management-systems/serviceminder-integration.md): What is Hatch's ServiceMinder integration, how it works, and where to begin.
+- [ServiceMonster](https://docs.usehatchapp.com/integrations/crm-field-management-systems/servicemonster-integration.md): In this article, we'll cover the basics of our integration with ServiceMonster. From what it does, to how to get started, and even frequently asked questions.
+- [ServiceTitan](https://docs.usehatchapp.com/integrations/crm-field-management-systems/servicetitan-integration.md): What Hatch's ServiceTitan integration is, how it works, and where to begin.
+- [Siro](https://docs.usehatchapp.com/integrations/crm-field-management-systems/siro-integration.md): What Hatch's Siro integration is, how it works, and where to begin.
+- [Integrations Overview](https://docs.usehatchapp.com/integrations/general/integration-overview.md): This article covers the different integration methods that Hatch offers.
+- [Understanding your Integration](https://docs.usehatchapp.com/integrations/general/understanding-your-integration.md): This article will help you understand the status of your integration and how to resolve any errors preventing it from syncing successfully.
+- [Zapier + Hatch Part 1: Basics](https://docs.usehatchapp.com/integrations/general/zapier-hatch-part-1-basics.md): This is Part One of a three part series on Zapier. In this article, we’ll cover what Zapier is and a high-level overview of how it can be used in combination with Hatch. Next up: We'll cover the use cases our Zapier app enables in Part Two.
+- [Zapier + Hatch Part Two: Triggers and Actions](https://docs.usehatchapp.com/integrations/general/zapier-hatch-part-two-trigger-and-actions.md): In this article, we’ll go more in depth about the uses for Hatch's Zapier app
+- [Bulk Export Schema Overview](https://docs.usehatchapp.com/integrations/hatch-api/bulk-export/bulk-export-schema-overview.md): Column-level definitions for the contact_history and conversation_items datasets.
+- [Bulk Export API](https://docs.usehatchapp.com/integrations/hatch-api/bulk-export/overview.md): Export BI-ready Hatch datasets for analytics and data warehouses.
+- [Custom Integration Example: Talkdesk](https://docs.usehatchapp.com/integrations/hatch-api/custom-integration-example-talkdesk.md): Learn how to create a Hatch contact from your Talkdesk interactions
+- [Custom Sources](https://docs.usehatchapp.com/integrations/hatch-api/custom-sources.md): An explanation of custom sources that can be used with Hatch's public API
+- [Hatch API Reference](https://docs.usehatchapp.com/integrations/hatch-api/hatch-api-reference.md): Complete reference documentation for the Hatch API including authentication details and the list of available endpoints
+- [New Lead API (legacy)](https://docs.usehatchapp.com/integrations/hatch-api/new-lead-api-legacy.md): This article covers the basics of our Standard API including a general overview, the setup steps, and some frequently asked questions.
+- [Creating & Managing Webhooks](https://docs.usehatchapp.com/integrations/hatch-webhooks/creating-managing-webhooks.md): Learn how to configure a webhook in Hatch to directly hit a downstream system or use Zapier as a 'no code' option.
+- [Webhooks Basics](https://docs.usehatchapp.com/integrations/hatch-webhooks/webhooks-basics.md): This article will review the basic concepts of webhooks and how to use them to get data our of Hatch.
+- [ActiveProspect](https://docs.usehatchapp.com/integrations/lead-sources/activeprospect-integration.md): ActiveProspect is a lead aggregator and lead optimization platform that delivers qualified leads to home services businesses. Below is a description of the process on how to properly get them connected.
+- [Angi Ads](https://docs.usehatchapp.com/integrations/lead-sources/angi-ads-integration.md)
+- [Angi Leads](https://docs.usehatchapp.com/integrations/lead-sources/angi-leads-integration.md)
+- [Contractor Appointments](https://docs.usehatchapp.com/integrations/lead-sources/contractor-appointments-integration.md): Contractor Appointments is a lead source that delivers pre-qualified home services appointments to contractors. Below is a description of the process on how to properly get them connected with Hatch.
+- [Google Local Services Ads (LSA)](https://docs.usehatchapp.com/integrations/lead-sources/google-local-services-ads-lsa-integration.md): Respond to your LSA message leads quickly and easily with Hatch
+- [Hatch Chat Overview](https://docs.usehatchapp.com/integrations/lead-sources/hatch-chat-overview.md)
+- [HelloProject](https://docs.usehatchapp.com/integrations/lead-sources/hello-project-integration.md): HelloProject is a lead source that connects home services contractors with qualified homeowner leads. Below is a description of the process on how to properly get them connected with Hatch.
+- [Home Appointments](https://docs.usehatchapp.com/integrations/lead-sources/home-appointments-integration.md): Home Appointments is a lead source that delivers pre-set in-home appointments to home services contractors. Below is a description of the process on how to properly get them connected with Hatch.
+- [HomeBuddy](https://docs.usehatchapp.com/integrations/lead-sources/home-buddy-integration.md): HomeBuddy is a lead source that connects homeowners with home improvement contractors for projects like roofing, siding, and windows. Below is a description of the process on how to properly get them connected with Hatch.
+- [HomeYou](https://docs.usehatchapp.com/integrations/lead-sources/home-you-integration.md): HomeYou is a lead source that connects homeowners with home improvement and remodeling contractors. Below is a description of the process on how to properly get them connected with Hatch.
+- [Keyword Connects](https://docs.usehatchapp.com/integrations/lead-sources/keyword-connects-integration.md): Keyword Connects (an EverConnect company) is a lead source that delivers home improvement and remodeling leads to contractors. Below is a description of the process on how to properly get them connected with Hatch.
+- [Lavin Media](https://docs.usehatchapp.com/integrations/lead-sources/lavin-media-integration.md): Lavin Media is a lead source that delivers home improvement and remodeling leads to contractors. Below is a description of the process on how to properly get them connected with Hatch.
+- [Modernize](https://docs.usehatchapp.com/integrations/lead-sources/modernize-integration.md)
+- [Porch](https://docs.usehatchapp.com/integrations/lead-sources/porch-integration.md): Porch is a lead aggregator that delivers homeowner leads to home services contractors. Hatch supports both Porch's pay-per-lead and pay-per-sale programs. Below is a description of the process on how to properly get them connected.
+- [Remodeling.com](https://docs.usehatchapp.com/integrations/lead-sources/remodelling-com-integration.md)
+- [Scorpion](https://docs.usehatchapp.com/integrations/lead-sources/scorpion-integration.md): Scorpion is a digital marketing and lead generation platform that delivers leads to home services and other local businesses. Below is a description of the process on how to properly get them connected with Hatch.
+- [Thumbtack](https://docs.usehatchapp.com/integrations/lead-sources/thumbtack.md): Thumbtack is a lead aggregator that sends their customers leads that fit their home improvement needs. Below is a description of the process from our App Marketplace on how to properly get them connected.
+- [Thumbtack v2](https://docs.usehatchapp.com/integrations/lead-sources/thumbtack-v2-integration.md): What Hatch's Thumbtack v2 integration is, how it works, and where to begin.
+- [WinGen](https://docs.usehatchapp.com/integrations/lead-sources/wingen-integration.md): In this article, we’ll cover the basics of our integration with WinGen including what it does, how to set it up, and frequently asked questions.
+- [Yelp](https://docs.usehatchapp.com/integrations/lead-sources/yelp-integration.md): Hatch's integration with Yelp helps you respond to your leads quickly and easily!
+- [Zapier + Hatch: Integrate with Lead Sources](https://docs.usehatchapp.com/integrations/lead-sources/zapier-hatch-integrate-with-lead-sources.md): In this article, we’ll cover how you can connect via Zapier to bring in leads from various sources into Hatch.

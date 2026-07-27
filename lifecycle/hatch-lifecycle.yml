@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.usehatchapp.com/integrations/hatch-api/hatch-api-reference
+versioning:
+  scheme: uri-path
+  current: v1
+  docs: https://docs.usehatchapp.com/integrations/hatch-api/hatch-api-reference
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: >-
+    Hatch labels an older lead-ingestion endpoint the "New Lead API (legacy)"
+    but publishes no formal deprecation policy, Sunset/Deprecation header
+    support, or SLA document.
+  legacy_surfaces:
+  - name: New Lead API (legacy) / Standard API Integration
+    docs: https://docs.usehatchapp.com/integrations/hatch-api/new-lead-api-legacy.md
+sla:
+  url: null
+status_page: https://status.usehatchapp.com
+deprecated_operations: []

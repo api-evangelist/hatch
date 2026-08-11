@@ -67,6 +67,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: MCPServer
+  url: mcp/hatch-mcp.yml
 - type: Website
   url: https://www.usehatchapp.com/
 - type: DeveloperPortal
@@ -94,7 +96,7 @@ common:
 - type: StatusPage
   url: https://status.usehatchapp.com
 - type: OpenAPI
-  url: openapi/hatch-openapi-original.json
+  url: openapi/_original/hatch-openapi-original.json
 - type: Authentication
   url: authentication/hatch-authentication.yml
 - type: ErrorCatalog

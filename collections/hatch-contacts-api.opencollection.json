@@ -1,0 +1,54 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Hatch contacts API",
+    "version": "1.0"
+  },
+  "request": {
+    "auth": {
+      "type": "bearer",
+      "token": "{{bearerToken}}"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "contacts",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Upsert a contact.",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://api.usehatchapp.com/v1/contacts",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "We will try to create a new contact, and in case that conflicts with an existent one we will update the contact.\n\nThe primary conflict targets are the attributes `phoneNumber` and `email` (with precedence following the listing below).\n\n  1. If the contact `phoneNumber` already exists, we update the contact with the new attribute values.\n  2. If the contact `email` already exists, we update the contact with the new attribute values.\n  3. Neither the `phoneNumber` nor `email` exists we create a ne"
+        },
+        {
+          "info": {
+            "name": "Upsert a contact.",
+            "type": "http"
+          },
+          "http": {
+            "method": "PUT",
+            "url": "https://api.usehatchapp.com/v1/contacts",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "We will try to create a new contact, and in case that conflicts with an existent one we will update the contact.\n\nThe primary conflict targets are the attributes `phoneNumber` and `email` (with precedence following the listing below).\n\n  1. If the contact `phoneNumber` already exists, we update the contact with the new attribute values.\n  2. If the contact `email` already exists, we update the contact with the new attribute values.\n  3. Neither the `phoneNumber` nor `email` exists we create a ne"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

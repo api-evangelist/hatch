@@ -1,0 +1,347 @@
+{
+  "item": [
+    {
+      "id": "3c55b67c-4007-42d4-b9d2-5d4f20a88a63",
+      "name": "contacts",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "0cf64822-c40c-4bc9-af28-5987e45a266b",
+          "name": "Upsert a contact.",
+          "request": {
+            "name": "Upsert a contact.",
+            "description": {
+              "content": "We will try to create a new contact, and in case that conflicts with an existent one we will update the contact.\n\nThe primary conflict targets are the attributes `phoneNumber` and `email` (with precedence following the listing below).\n\n  1. If the contact `phoneNumber` already exists, we update the contact with the new attribute values.\n  2. If the contact `email` already exists, we update the contact with the new attribute values.\n  3. Neither the `phoneNumber` nor `email` exists we create a new contact generating a new `ID` for that contact.\n\nWe also have a special behavior on the attribute `externalID`.\n\nExternal ID is a unique record identifier from the customer's external system.\nThis value must be unique among all opportunities on a contact (if provided).\nTherefore, an opportunity will be updated if data is ingested with a matching External ID value.\n",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "v1",
+                "contacts"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"details\": {\n    \"key_0\": \"string\",\n    \"key_1\": \"string\"\n  },\n  \"email\": \"<email>\",\n  \"externalContactID\": \"<string>\",\n  \"externalCreatedAt\": \"<dateTime>\",\n  \"externalID\": \"<string>\",\n  \"externalUpdatedAt\": \"<dateTime>\",\n  \"firstName\": \"<string>\",\n  \"lastName\": \"<string>\",\n  \"phoneNumber\": \"<string>\",\n  \"source\": \"<string>\",\n  \"status\": \"<string>\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "b6cec490-a2b8-46fe-a2cd-1a8a0eec650c",
+              "name": "Contact upsert success response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "contacts"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"details\": {\n    \"address\": \"contact address\",\n    \"favoriteColor\": \"Blue\"\n  },\n  \"email\": \"firstName.lastName@host.com\",\n  \"externalContactID\": \"c1dddbd0-a0d6-477c-815f-30c56312d5dc\",\n  \"externalCreatedAt\": \"2023-02-06 17:46:25Z\",\n  \"externalID\": \"03775ccb-ffd7-48a6-b1c6-0fac96289928\",\n  \"externalUpdatedAt\": \"2023-02-06 17:46:25Z\",\n  \"firstName\": \"firstName\",\n  \"lastName\": \"lastName\",\n  \"phoneNumber\": \"6364618187\",\n  \"source\": \"custom:my-awesome-source\",\n  \"status\": \"sold\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"data\": {}\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "4c5e9e0d-fdb4-40cd-965a-3aea71a1531f",
+              "name": "Unprocessable Entity",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "contacts"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"details\": {\n    \"address\": \"contact address\",\n    \"favoriteColor\": \"Blue\"\n  },\n  \"email\": \"firstName.lastName@host.com\",\n  \"externalContactID\": \"c1dddbd0-a0d6-477c-815f-30c56312d5dc\",\n  \"externalCreatedAt\": \"2023-02-06 17:46:25Z\",\n  \"externalID\": \"03775ccb-ffd7-48a6-b1c6-0fac96289928\",\n  \"externalUpdatedAt\": \"2023-02-06 17:46:25Z\",\n  \"firstName\": \"firstName\",\n  \"lastName\": \"lastName\",\n  \"phoneNumber\": \"6364618187\",\n  \"source\": \"custom:my-awesome-source\",\n  \"status\": \"sold\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Unprocessable Entity (WebDAV) (RFC 4918)",
+              "code": 422,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"errors\": [\n    {\n      \"title\": \"Invalid value\",\n      \"source\": {\n        \"pointer\": \"/data/attributes/petName\"\n      },\n      \"detail\": \"null value where string expected\"\n    },\n    {\n      \"title\": \"Invalid value\",\n      \"source\": {\n        \"pointer\": \"/data/attributes/petName\"\n      },\n      \"detail\": \"null value where string expected\"\n    }\n  ]\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "0cc7609c-8a08-41bd-a32c-c420540a672f",
+          "name": "Upsert a contact.",
+          "request": {
+            "name": "Upsert a contact.",
+            "description": {
+              "content": "We will try to create a new contact, and in case that conflicts with an existent one we will update the contact.\n\nThe primary conflict targets are the attributes `phoneNumber` and `email` (with precedence following the listing below).\n\n  1. If the contact `phoneNumber` already exists, we update the contact with the new attribute values.\n  2. If the contact `email` already exists, we update the contact with the new attribute values.\n  3. Neither the `phoneNumber` nor `email` exists we create a new contact generating a new `ID` for that contact.\n\nWe also have a special behavior on the attribute `externalID`.\n\nExternal ID is a unique record identifier from the customer's external system.\nThis value must be unique among all opportunities on a contact (if provided).\nTherefore, an opportunity will be updated if data is ingested with a matching External ID value.\n",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "v1",
+                "contacts"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "PUT",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"details\": {\n    \"key_0\": \"string\",\n    \"key_1\": \"string\"\n  },\n  \"email\": \"<email>\",\n  \"externalContactID\": \"<string>\",\n  \"externalCreatedAt\": \"<dateTime>\",\n  \"externalID\": \"<string>\",\n  \"externalUpdatedAt\": \"<dateTime>\",\n  \"firstName\": \"<string>\",\n  \"lastName\": \"<string>\",\n  \"phoneNumber\": \"<string>\",\n  \"source\": \"<string>\",\n  \"status\": \"<string>\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "4d6ccf8f-9b1b-493c-86e8-5881f0d6e4da",
+              "name": "Contact upsert success response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "contacts"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PUT",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"details\": {\n    \"address\": \"contact address\",\n    \"favoriteColor\": \"Blue\"\n  },\n  \"email\": \"firstName.lastName@host.com\",\n  \"externalContactID\": \"c1dddbd0-a0d6-477c-815f-30c56312d5dc\",\n  \"externalCreatedAt\": \"2023-02-06 17:46:25Z\",\n  \"externalID\": \"03775ccb-ffd7-48a6-b1c6-0fac96289928\",\n  \"externalUpdatedAt\": \"2023-02-06 17:46:25Z\",\n  \"firstName\": \"firstName\",\n  \"lastName\": \"lastName\",\n  \"phoneNumber\": \"6364618187\",\n  \"source\": \"custom:my-awesome-source\",\n  \"status\": \"sold\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"data\": {}\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "4df2cb11-4921-4a56-af9a-9265acbf5d10",
+              "name": "Unprocessable Entity",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "contacts"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PUT",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"details\": {\n    \"address\": \"contact address\",\n    \"favoriteColor\": \"Blue\"\n  },\n  \"email\": \"firstName.lastName@host.com\",\n  \"externalContactID\": \"c1dddbd0-a0d6-477c-815f-30c56312d5dc\",\n  \"externalCreatedAt\": \"2023-02-06 17:46:25Z\",\n  \"externalID\": \"03775ccb-ffd7-48a6-b1c6-0fac96289928\",\n  \"externalUpdatedAt\": \"2023-02-06 17:46:25Z\",\n  \"firstName\": \"firstName\",\n  \"lastName\": \"lastName\",\n  \"phoneNumber\": \"6364618187\",\n  \"source\": \"custom:my-awesome-source\",\n  \"status\": \"sold\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Unprocessable Entity (WebDAV) (RFC 4918)",
+              "code": 422,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"errors\": [\n    {\n      \"title\": \"Invalid value\",\n      \"source\": {\n        \"pointer\": \"/data/attributes/petName\"\n      },\n      \"detail\": \"null value where string expected\"\n    },\n    {\n      \"title\": \"Invalid value\",\n      \"source\": {\n        \"pointer\": \"/data/attributes/petName\"\n      },\n      \"detail\": \"null value where string expected\"\n    }\n  ]\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://api.usehatchapp.com",
+      "key": "baseUrl"
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{bearerToken}}"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "065e951e-1ab8-4ed7-a74b-334ea15c7fc1",
+    "name": "Hatch contacts API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

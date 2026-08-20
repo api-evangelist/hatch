@@ -55,6 +55,8 @@ apis:
   humanURL: https://docs.usehatchapp.com/integrations/hatch-api/hatch-api-reference
   baseURL: https://api.usehatchapp.com
   tags:
+  - Contacts
+  tags_raw:
   - contacts
   properties:
   - type: OpenAPI

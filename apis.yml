@@ -81,6 +81,9 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: CapabilityMap
+  url: capabilities/hatch-capability-edges.yml
+  name: Hatch Business Capability Map
 - type: MCPServer
   url: mcp/hatch-mcp.yml
 - type: Website

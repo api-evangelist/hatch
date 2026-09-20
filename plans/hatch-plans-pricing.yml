@@ -1,0 +1,34 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-09-20'
+method: searched
+source: https://www.usehatchapp.com/pricing
+sources:
+- https://www.usehatchapp.com/pricing
+provenance:
+  tool: planning/api-economics/harvest_pricing.py
+  run: 20260920T120546
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+published: false
+note: No numeric price is published on the pricing page; Page describes platform fee plus usage, annual
+  plans paid monthly per location, but shows no numeric prices; all tiers say 'Get pricing'.
+plan_count: 3
+plans:
+- name: Hatch Standard
+  price_text: Get pricing
+  period: none
+  unit: per location
+  included_quota: Automate lead response and follow-up across channels; AI + humans in one workspace;
+    integrated workflows with CRM & lead sources
+- name: Hatch Pro
+  price_text: Get pricing
+  period: none
+  unit: per location
+  included_quota: More contacts, AI convos, and messaging included; custom reporting and marketing blasts
+- name: Hatch Enterprise
+  price_text: Get pricing
+  period: none
+  unit: per location
+  included_quota: Rich analytics and operational oversight; multiple locations, divisions, or service
+    areas

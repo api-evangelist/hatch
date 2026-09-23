@@ -1,0 +1,31 @@
+# Front Door AI Index — hatch — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: hatch
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.usehatchapp.com
+  final_host: www.usehatchapp.com
+  ownership: own
+  owner: hatch
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 110
+  host_score: 110
+  density: 45.05
+  words: 2442
+  tiers:
+    agentic: 5
+    core: 91
+    model: 14
+  ambiguous: 4
+  top_terms:
+    AI: 91
+    GPT: 11
+    agent: 4
+    AI agent: 3
+    OpenAI: 3
+    fine-tune: 1
+    prompts: 1

@@ -1,6 +1,6 @@
-openapi: 3.0.0
+openapi: 3.2.0
 info:
-  title: Hatch contacts API
+  title: Hatch Contacts API
   version: '1.0'
 servers:
 - url: https://api.usehatchapp.com
@@ -8,12 +8,32 @@ servers:
 security:
 - authorization: []
 tags:
-- name: contacts
+- name: Contacts
 paths:
   /v1/contacts:
     post:
       callbacks: {}
-      description: "We will try to create a new contact, and in case that conflicts with an existent one we will update the contact.\n\nThe primary conflict targets are the attributes `phoneNumber` and `email` (with precedence following the listing below).\n\n  1. If the contact `phoneNumber` already exists, we update the contact with the new attribute values.\n  2. If the contact `email` already exists, we update the contact with the new attribute values.\n  3. Neither the `phoneNumber` nor `email` exists we create a new contact generating a new `ID` for that contact.\n\nWe also have a special behavior on the attribute `externalID`.\n\nExternal ID is a unique record identifier from the customer's external system.\nThis value must be unique among all opportunities on a contact (if provided).\nTherefore, an opportunity will be updated if data is ingested with a matching External ID value.\n"
+      description: 'We will try to create a new contact, and in case that conflicts with an existent one we will update the contact.
+
+
+        The primary conflict targets are the attributes `phoneNumber` and `email` (with precedence following the listing below).
+
+
+        1. If the contact `phoneNumber` already exists, we update the contact with the new attribute values.
+
+        2. If the contact `email` already exists, we update the contact with the new attribute values.
+
+        3. Neither the `phoneNumber` nor `email` exists we create a new contact generating a new `ID` for that contact.
+
+
+        We also have a special behavior on the attribute `externalID`.
+
+
+        External ID is a unique record identifier from the customer''s external system.
+
+        This value must be unique among all opportunities on a contact (if provided).
+
+        Therefore, an opportunity will be updated if data is ingested with a matching External ID value.'
       operationId: HatchWeb.V1.Integrations.ContactController.upsert (2)
       parameters: []
       requestBody:
@@ -36,12 +56,32 @@ paths:
               schema:
                 $ref: '#/components/schemas/JsonErrorResponse'
           description: Unprocessable Entity
-      summary: Upsert a contact.
+      summary: Upsert a contact
       tags:
-      - contacts
+      - Contacts
     put:
       callbacks: {}
-      description: "We will try to create a new contact, and in case that conflicts with an existent one we will update the contact.\n\nThe primary conflict targets are the attributes `phoneNumber` and `email` (with precedence following the listing below).\n\n  1. If the contact `phoneNumber` already exists, we update the contact with the new attribute values.\n  2. If the contact `email` already exists, we update the contact with the new attribute values.\n  3. Neither the `phoneNumber` nor `email` exists we create a new contact generating a new `ID` for that contact.\n\nWe also have a special behavior on the attribute `externalID`.\n\nExternal ID is a unique record identifier from the customer's external system.\nThis value must be unique among all opportunities on a contact (if provided).\nTherefore, an opportunity will be updated if data is ingested with a matching External ID value.\n"
+      description: 'We will try to create a new contact, and in case that conflicts with an existent one we will update the contact.
+
+
+        The primary conflict targets are the attributes `phoneNumber` and `email` (with precedence following the listing below).
+
+
+        1. If the contact `phoneNumber` already exists, we update the contact with the new attribute values.
+
+        2. If the contact `email` already exists, we update the contact with the new attribute values.
+
+        3. Neither the `phoneNumber` nor `email` exists we create a new contact generating a new `ID` for that contact.
+
+
+        We also have a special behavior on the attribute `externalID`.
+
+
+        External ID is a unique record identifier from the customer''s external system.
+
+        This value must be unique among all opportunities on a contact (if provided).
+
+        Therefore, an opportunity will be updated if data is ingested with a matching External ID value.'
       operationId: HatchWeb.V1.Integrations.ContactController.upsert
       parameters: []
       requestBody:
@@ -64,9 +104,9 @@ paths:
               schema:
                 $ref: '#/components/schemas/JsonErrorResponse'
           description: Unprocessable Entity
-      summary: Upsert a contact.
+      summary: Upsert a contact
       tags:
-      - contacts
+      - Contacts
 components:
   schemas:
     JsonErrorResponse:
@@ -98,6 +138,21 @@ components:
       - errors
       title: JsonErrorResponse
       type: object
+    UpsertContactSuccessfulResponse:
+      description: Response for upserting a contact with success
+      example:
+        data:
+          id: 4856cea1-0fdc-458b-9e76-57b9bbd4c891
+      properties:
+        data:
+          description: Data Representation
+          properties:
+            id:
+              description: Contact ID
+              type: string
+          type: object
+      title: UpsertContactSuccessfulResponse
+      type: object
     UpsertContactParams:
       description: The attributes for upserting a contact.
       example:
@@ -122,38 +177,46 @@ components:
         email:
           description: The contact's email
           format: email
-          nullable: true
-          type: string
+          type:
+          - string
+          - 'null'
         externalContactID:
           description: The contact ID from your system.
-          nullable: true
-          type: string
+          type:
+          - string
+          - 'null'
         externalCreatedAt:
           description: The contact's creation timestamp from your system (ISO 8601). If not given Hatch defaults to the current time Hatch is processing the contact.
           format: date-time
-          nullable: true
-          type: string
+          type:
+          - string
+          - 'null'
         externalID:
           description: The lead ID from your system.
-          nullable: true
-          type: string
+          type:
+          - string
+          - 'null'
         externalUpdatedAt:
           description: The contact's updated timestamp from your system (ISO 8601).
           format: date-time
-          nullable: true
-          type: string
+          type:
+          - string
+          - 'null'
         firstName:
           description: The contact's first name.
-          nullable: true
-          type: string
+          type:
+          - string
+          - 'null'
         lastName:
           description: The contact's last name.
-          nullable: true
-          type: string
+          type:
+          - string
+          - 'null'
         phoneNumber:
           description: The contact's phone number.
-          nullable: true
-          type: string
+          type:
+          - string
+          - 'null'
         source:
           description: 'The source of the contact.
 
@@ -166,24 +229,10 @@ components:
           type: string
         status:
           description: The contact's status from your system (This can be whatever is helpful for your workflow).
-          nullable: true
-          type: string
+          type:
+          - string
+          - 'null'
       title: UpsertContactParams
-      type: object
-    UpsertContactSuccessfulResponse:
-      description: Response for upserting a contact with success
-      example:
-        data:
-          id: 4856cea1-0fdc-458b-9e76-57b9bbd4c891
-      properties:
-        data:
-          description: Data Representation
-          properties:
-            id:
-              description: Contact ID
-              type: string
-          type: object
-      title: UpsertContactSuccessfulResponse
       type: object
   securitySchemes:
     authorization:

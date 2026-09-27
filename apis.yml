@@ -64,7 +64,7 @@ tags:
 - Contact Center
 apis:
 - aid: hatch:hatch-contacts-api
-  name: Hatch contacts API
+  name: Hatch Contacts API
   description: The contacts API from Hatch — 1 operation(s) for contacts.
   humanURL: https://docs.usehatchapp.com/integrations/hatch-api/hatch-api-reference
   baseURL: https://api.usehatchapp.com

@@ -34,7 +34,7 @@ paths:
         This value must be unique among all opportunities on a contact (if provided).
 
         Therefore, an opportunity will be updated if data is ingested with a matching External ID value.'
-      operationId: HatchWeb.V1.Integrations.ContactController.upsert (2)
+      operationId: HatchWeb.V1.Integrations.ContactController.upsert(2)
       parameters: []
       requestBody:
         content:
@@ -59,6 +59,8 @@ paths:
       summary: Upsert a contact
       tags:
       - Contacts
+      x-operation-id-source: normalized
+      x-operation-id-original: HatchWeb.V1.Integrations.ContactController.upsert (2)
     put:
       callbacks: {}
       description: 'We will try to create a new contact, and in case that conflicts with an existent one we will update the contact.
@@ -137,21 +139,6 @@ components:
       required:
       - errors
       title: JsonErrorResponse
-      type: object
-    UpsertContactSuccessfulResponse:
-      description: Response for upserting a contact with success
-      example:
-        data:
-          id: 4856cea1-0fdc-458b-9e76-57b9bbd4c891
-      properties:
-        data:
-          description: Data Representation
-          properties:
-            id:
-              description: Contact ID
-              type: string
-          type: object
-      title: UpsertContactSuccessfulResponse
       type: object
     UpsertContactParams:
       description: The attributes for upserting a contact.
@@ -233,6 +220,21 @@ components:
           - string
           - 'null'
       title: UpsertContactParams
+      type: object
+    UpsertContactSuccessfulResponse:
+      description: Response for upserting a contact with success
+      example:
+        data:
+          id: 4856cea1-0fdc-458b-9e76-57b9bbd4c891
+      properties:
+        data:
+          description: Data Representation
+          properties:
+            id:
+              description: Contact ID
+              type: string
+          type: object
+      title: UpsertContactSuccessfulResponse
       type: object
   securitySchemes:
     authorization:

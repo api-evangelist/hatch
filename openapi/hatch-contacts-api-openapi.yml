@@ -140,21 +140,6 @@ components:
       - errors
       title: JsonErrorResponse
       type: object
-    UpsertContactSuccessfulResponse:
-      description: Response for upserting a contact with success
-      example:
-        data:
-          id: 4856cea1-0fdc-458b-9e76-57b9bbd4c891
-      properties:
-        data:
-          description: Data Representation
-          properties:
-            id:
-              description: Contact ID
-              type: string
-          type: object
-      title: UpsertContactSuccessfulResponse
-      type: object
     UpsertContactParams:
       description: The attributes for upserting a contact.
       example:
@@ -235,6 +220,21 @@ components:
           - string
           - 'null'
       title: UpsertContactParams
+      type: object
+    UpsertContactSuccessfulResponse:
+      description: Response for upserting a contact with success
+      example:
+        data:
+          id: 4856cea1-0fdc-458b-9e76-57b9bbd4c891
+      properties:
+        data:
+          description: Data Representation
+          properties:
+            id:
+              description: Contact ID
+              type: string
+          type: object
+      title: UpsertContactSuccessfulResponse
       type: object
   securitySchemes:
     authorization:

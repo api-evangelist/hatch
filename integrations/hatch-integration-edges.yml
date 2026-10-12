@@ -1,0 +1,421 @@
+generated: '2026-10-12'
+method: searched
+source:
+- https://zapier.com/apps/hatch/integrations
+checked:
+- https://composio.dev/toolkits/hatch
+- https://monid.ai/tools/hatch
+- https://n8n.io/integrations/hatch/
+- https://zapier.com/apps/hatch/integrations
+summary: null
+marketplace_apps:
+- marketplace: zapier
+  channel: ipaas-listing
+  app: hatch
+  url: https://zapier.com/apps/hatch/integrations
+  external_url: https://app.usehatchapp.com/
+  partner_tier: BRONZE
+  triggers:
+  - key: new_communication_inbound
+    label: New Communication Inbound
+  - key: new_communication_outbound
+    label: New Communication Outbound
+  - key: new_contact
+    label: New Contact
+  actions:
+  - key: create_contact
+    label: Create Contact
+  searches: []
+edges:
+- partner_name: Gravity Forms
+  partner: gravity-forms
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/gravity-forms
+  direction: third-party
+  category: Forms & Surveys
+  partner_url: https://www.gravityforms.com/?utm_campaign=partners&utm_source=zapier-listing-learn-more&utm_medium=free-placement
+- partner_name: Facebook Lead Ads
+  partner: facebook-lead-ads
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/facebook-lead-ads
+  direction: third-party
+  category: Ads & Conversion
+  partner_url: https://www.facebook.com/business/ads/lead-ads
+- partner_name: Unbounce
+  partner: unbounce
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/unbounce
+  direction: third-party
+  category: Forms & Surveys
+  partner_url: https://unbounce.com/
+- partner_name: CallRail
+  partner: callrail
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/callrail
+  direction: third-party
+  category: Call Tracking
+  partner_url: https://www.callrail.com/?utm_medium=strategicpartner&utm_source=zapier&utm_campaign=app_listing&utm_content=app_listing
+- partner_name: Typeform
+  partner: typeform
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/typeform
+  direction: third-party
+  category: Forms & Surveys
+  partner_url: https://www.typeform.com/signup?utm_medium=referral&utm_source=zapier&utm_campaign=zapier_integration&utm_content=marketplace
+- partner_name: monday.com
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/monday
+  direction: third-party
+  category: Project Management
+  partner_url: https://monday.com/
+- partner_name: Google Forms
+  partner: google-forms
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/google-forms
+  direction: third-party
+  category: Forms & Surveys
+  partner_url: http://google.com/
+- partner_name: Facebook Lead Ads (for Business admins)
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/facebook-lead-ads-beta
+  direction: third-party
+  category: Ads & Conversion
+  partner_url: https://facebook.com/
+- partner_name: WPForms
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/wpforms
+  direction: third-party
+  category: Forms & Surveys
+  partner_url: https://wpforms.com/
+- partner_name: Acuity Scheduling
+  partner: acuity-scheduling
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/acuity-scheduling
+  direction: third-party
+  category: Scheduling & Booking
+  partner_url: https://acuityscheduling.com/?utm_source=zapier.com&utm_medium=referral&utm_campaign=integration-page
+- partner_name: Google Ads
+  partner: google-ads
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/google-ads
+  direction: third-party
+  category: Ads & Conversion
+  partner_url: https://ads.google.com/
+- partner_name: Instapage
+  partner: instapage
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/instapage
+  direction: third-party
+  category: Forms & Surveys
+  partner_url: https://instapage.com/
+- partner_name: WhatConverts
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/whatconverts
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://www.whatconverts.com/
+- partner_name: Wufoo
+  partner: wufoo
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/wufoo
+  direction: third-party
+  category: Forms & Surveys
+  partner_url: https://www.wufoo.com/
+- partner_name: Squarespace Forms
+  partner: squarespace
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/squarespace-forms
+  direction: third-party
+  category: Forms & Surveys
+  partner_url: https://www.squarespace.com/
+- partner_name: ServiceTitan
+  partner: servicetitan
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/servicetitan
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://www.servicetitan.com/
+- partner_name: Formidable Forms
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/formidable
+  direction: third-party
+  category: Forms & Surveys
+  partner_url: http://formidableforms.com/
+- partner_name: Ninja Forms
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/ninjaforms
+  direction: third-party
+  category: Forms & Surveys
+  partner_url: http://ninjaforms.com/extensions/zapier/
+- partner_name: Google Sheets
+  partner: google-sheets
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/google-sheets
+  direction: third-party
+  category: Google
+  partner_url: http://sheets.google.com/
+- partner_name: Spotio
+  partner: spotio
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/spotio2
+  direction: third-party
+  category: Sales & CRM
+  partner_url: https://spotio.com/
+- partner_name: ClickFunnels Classic
+  partner: clickfunnels
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/clickfunnels-classic
+  direction: third-party
+  category: Marketing Automation
+  partner_url: https://www.clickfunnels.com/
+- partner_name: Nextdoor
+  partner: nextdoor
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/nextdoor
+  direction: third-party
+  category: Ads & Conversion
+  partner_url: https://ads.nextdoor.com/
+- partner_name: Jotform
+  partner: jotform
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/jotform
+  direction: third-party
+  category: Forms & Surveys
+  partner_url: http://www.jotform.com/
+- partner_name: Microsoft Outlook
+  partner: microsoft-outlook
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/microsoft-outlook
+  direction: third-party
+  category: Calendar
+  partner_url: https://outlook.live.com/
+- partner_name: Mailchimp
+  partner: mailchimp
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/mailchimp
+  direction: third-party
+  category: Marketing Automation
+  partner_url: https://mailchimp.com/
+- partner_name: Service Fusion
+  partner: servicefusion
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/service-fusion
+  direction: third-party
+  category: eCommerce
+  partner_url: https://www.servicefusion.com/
+- partner_name: LocaliQ
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/localiq
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://localiq.com/
+- partner_name: Predictive Sales AI
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/predictive-sales-ai
+  direction: third-party
+  category: Marketing Automation
+  partner_url: https://www.predictivesalesai.com/
+- partner_name: Pipeline CRM
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/pipelinedeals
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://pipelinecrm.com/
+- partner_name: PhoneBurner
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/phoneburner
+  direction: third-party
+  category: Phone & SMS
+  partner_url: https://phoneburner.com/
+templates:
+- title: Create Hatch Contacts from New Facebook Lead Ads Leads
+  url: https://zapier.com/apps/facebook-lead-ads/integrations/hatch/1214996/create-hatch-contacts-from-new-facebook-lead-ads-leads
+  apps:
+  - facebook-lead-ads
+  - hatch
+- title: Create Contact in Hatch for new lead form entries in Google Ads
+  url: https://zapier.com/apps/google-ads/integrations/hatch/1007109/create-contact-in-hatch-for-new-lead-form-entries-in-google-ads
+  apps:
+  - google-ads
+  - hatch
+- title: Create new Hatch contacts from new WPForms entries
+  url: https://zapier.com/apps/hatch/integrations/wpforms/1659108/create-new-hatch-contacts-from-new-wpforms-entries
+  apps:
+  - wpforms
+  - hatch
+- title: Create new Hatch contacts from Pipedrive leads for seamless data management
+  url: https://zapier.com/apps/hatch/integrations/pipedrive/1457021/create-new-hatch-contacts-from-pipedrive-leads-for-seamless-data-management
+  apps:
+  - pipedrive
+  - hatch
+- title: Create contacts in Hatch from new form submissions in Ninja Forms
+  url: https://zapier.com/apps/hatch/integrations/ninjaforms/987818/create-contacts-in-hatch-from-new-form-submissions-in-ninja-forms
+  apps:
+  - ninjaforms
+  - hatch
+- title: Create Hatch contacts from newly caught webhooks
+  url: https://zapier.com/apps/hatch/integrations/webhook/987850/create-hatch-contacts-from-newly-caught-webhooks
+  apps:
+  - webhook
+  - hatch
+- title: Create records in Shape Software for new contacts in Hatch
+  url: https://zapier.com/apps/hatch/integrations/shape/1090961/create-records-in-shape-software-for-new-contacts-in-hatch
+  apps:
+  - hatch
+  - shape
+- title: Create contacts in Hatch from new spreadsheet rows in Google Sheets
+  url: https://zapier.com/apps/google-sheets/integrations/hatch/1221853/create-contacts-in-hatch-from-new-spreadsheet-rows-in-google-sheets
+  apps:
+  - google-sheets
+  - hatch
+- title: Create Hatch contacts from new Unbounce form submissions
+  url: https://zapier.com/apps/hatch/integrations/unbounce/1240278/create-hatch-contacts-from-new-unbounce-form-submissions
+  apps:
+  - unbounce
+  - hatch
+- title: Create Hatch contacts from new or updated Google Sheets rows
+  url: https://zapier.com/apps/google-sheets/integrations/hatch/1259236/create-hatch-contacts-from-new-or-updated-google-sheets-rows
+  apps:
+  - google-sheets
+  - hatch
+- title: Create Hatch contacts from new updates in monday.com boards
+  url: https://zapier.com/apps/hatch/integrations/monday/1263451/create-hatch-contacts-from-new-updates-in-mondaycom-boards
+  apps:
+  - monday
+  - hatch
+- title: Create Hatch contacts from new monday.com board items
+  url: https://zapier.com/apps/hatch/integrations/monday/1263566/create-hatch-contacts-from-new-mondaycom-board-items
+  apps:
+  - monday
+  - hatch
+template_total: 115

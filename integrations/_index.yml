@@ -101,7 +101,6 @@
   arazzo: null
 - slug: hatch-create-hatch-contacts-from-new-updates-in-monday-com-boards
   label: Create Hatch contacts from new updates in monday.com boards
-  partner: monday-com
   partner_name: monday.com
   category: Project Management
   use_case: Create Hatch contacts from new updates in monday.com boards
@@ -111,11 +110,10 @@
   evidence: https://zapier.com/apps/hatch/integrations/monday/1263451/create-hatch-contacts-from-new-updates-in-mondaycom-boards
   template: https://zapier.com/apps/hatch/integrations/monday/1263451/create-hatch-contacts-from-new-updates-in-mondaycom-boards
   source: template
-  status: pending-generation
+  status: pending-partner-spec
   arazzo: null
 - slug: hatch-create-hatch-contacts-from-new-monday-com-board-items
   label: Create Hatch contacts from new monday.com board items
-  partner: monday-com
   partner_name: monday.com
   category: Project Management
   use_case: Create Hatch contacts from new monday.com board items
@@ -125,7 +123,7 @@
   evidence: https://zapier.com/apps/hatch/integrations/monday/1263566/create-hatch-contacts-from-new-mondaycom-board-items
   template: https://zapier.com/apps/hatch/integrations/monday/1263566/create-hatch-contacts-from-new-mondaycom-board-items
   source: template
-  status: pending-generation
+  status: pending-partner-spec
   arazzo: null
 - slug: hatch-gravity-forms
   label: Gravity Forms
@@ -395,4 +393,17 @@
   evidence: https://zapier.com/apps/hatch/integrations/phoneburner
   source: edge
   status: pending-partner-spec
+  arazzo: null
+- slug: hatch-servicetitan-own
+  label: ServiceTitan (own)
+  partner: servicetitan
+  partner_name: ServiceTitan (own)
+  category: Marketing, Leads & Bookings
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://marketplace.servicetitan.com/partner/hatch-ai
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
   arazzo: null

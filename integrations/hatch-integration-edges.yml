@@ -7,6 +7,7 @@ checked:
 - https://monid.ai/tools/hatch
 - https://n8n.io/integrations/hatch/
 - https://zapier.com/apps/hatch/integrations
+- servicetitan/integrations/servicetitan-integration-edges.yml
 summary: null
 marketplace_apps:
 - marketplace: zapier
@@ -357,6 +358,25 @@ edges:
   direction: third-party
   category: Phone & SMS
   partner_url: https://phoneburner.com/
+- partner_name: ServiceTitan (own)
+  partner: servicetitan
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.servicetitan.com/partner/hatch-ai
+  mirror_of: servicetitan/integrations/servicetitan-integration-edges.yml
+  apps:
+  - Hatch AI
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Marketing, Leads & Bookings
+  badges:
+  - Certified App
 templates:
 - title: Create Hatch Contacts from New Facebook Lead Ads Leads
   url: https://zapier.com/apps/facebook-lead-ads/integrations/hatch/1214996/create-hatch-contacts-from-new-facebook-lead-ads-leads

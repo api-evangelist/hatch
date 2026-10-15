@@ -6,6 +6,7 @@ checked:
 - https://composio.dev/toolkits/hatch
 - https://monid.ai/tools/hatch
 - https://n8n.io/integrations/hatch/
+- https://zapier.com/api/v4/apps/
 - https://zapier.com/apps/hatch/integrations
 - servicetitan/integrations/servicetitan-integration-edges.yml
 summary: null
@@ -377,6 +378,31 @@ edges:
   category: Marketing, Leads & Bookings
   badges:
   - Certified App
+- partner_name: Zapier
+  partner: zapier
+  partner_match: aggregator
+  type: marketplace
+  marketplace: zapier-directory
+  channel: ipaas-listing
+  relationship: ipaas-bridge
+  direction: third-party
+  evidence: https://zapier.com/apps/hatch/integrations
+  category: null
+  contract_reference:
+    register: Zapier app directory (zapier.com/api/v4/apps)
+    spec_file: null
+    role: ipaas-connector:zapier
+    registered_name: Hatch
+    matched_domain: usehatchapp.com
+    matched_by: domain
+    detected_by: sweep-workflow-automation.py
+    detected: '2026-10-15'
+    signal_note: one edge per (provider, platform); actions, triggers and usage counts are context, never read
+    app_slug: hatch
+    beta: false
+    builder: unknown (not in the directory record)
+  detected_by: sweep-workflow-automation.py
+  first_seen: '2026-10-15'
 templates:
 - title: Create Hatch Contacts from New Facebook Lead Ads Leads
   url: https://zapier.com/apps/facebook-lead-ads/integrations/hatch/1214996/create-hatch-contacts-from-new-facebook-lead-ads-leads

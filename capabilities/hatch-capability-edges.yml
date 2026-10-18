@@ -3,6 +3,7 @@ provider: Hatch
 generated_by: planning/capability-mapping/scripts/classify_capabilities.py
 model: claude-opus-5
 frame:
+- Mining & Metals
 - Telecommunications
 min_confidence: 0.7
 capability_model:
@@ -11,7 +12,7 @@ capability_model:
   attribution: Turbo EA Capabilities by Vincent Verdet — Turbo EA, https://github.com/vincentmakes/turbo-ea-capabilities,
     CC BY 4.0
   notice: NOTICE
-edge_count: 1
+edge_count: 2
 edges:
 - tag: contacts
   spec_file: hatch-contacts-api-openapi.yml
@@ -22,3 +23,14 @@ edges:
   evidence: POST /v1/contacts ... Upsert a contact. / UpsertContactParams
   reason: Upsert of customer/lead contact records into the communication platform is customer master data
     maintenance (identity/golden record upsert).
+- tag: Contacts
+  spec_file: hatch-contacts-api-openapi.yml
+  capability_id: BC-420.10
+  capability_id_l1: BC-420
+  capability_name: Customer Data Management
+  confidence: 0.7
+  evidence: POST /v1/contacts "Upsert a contact" with schema UpsertContactParams, under an integrations
+    controller for a customer communication platform
+  reason: The only operations create or update contact records that the messaging/voice platform engages,
+    i.e. maintenance of the customer/contact master record fed from external systems. Customer Data Management
+    is the best fit, though the surface is thin (a single upsert) so confidence is held at 0.7.

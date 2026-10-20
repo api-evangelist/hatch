@@ -15,6 +15,7 @@
   evidence: https://zapier.com/apps/facebook-lead-ads/integrations/hatch/1214996/create-hatch-contacts-from-new-facebook-lead-ads-leads
   template: https://zapier.com/apps/facebook-lead-ads/integrations/hatch/1214996/create-hatch-contacts-from-new-facebook-lead-ads-leads
   source: template
+  relationship: ipaas-bridge
   status: pending-generation
   arazzo: null
 - slug: hatch-create-contact-in-hatch-for-new-lead-form-entries-in-google-ads
@@ -29,6 +30,7 @@
   evidence: https://zapier.com/apps/google-ads/integrations/hatch/1007109/create-contact-in-hatch-for-new-lead-form-entries-in-google-ads
   template: https://zapier.com/apps/google-ads/integrations/hatch/1007109/create-contact-in-hatch-for-new-lead-form-entries-in-google-ads
   source: template
+  relationship: ipaas-bridge
   status: pending-generation
   arazzo: null
 - slug: hatch-create-new-hatch-contacts-from-new-wpforms-entries
@@ -42,6 +44,7 @@
   evidence: https://zapier.com/apps/hatch/integrations/wpforms/1659108/create-new-hatch-contacts-from-new-wpforms-entries
   template: https://zapier.com/apps/hatch/integrations/wpforms/1659108/create-new-hatch-contacts-from-new-wpforms-entries
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: hatch-create-contacts-in-hatch-from-new-form-submissions-in-ninja-forms
@@ -55,6 +58,7 @@
   evidence: https://zapier.com/apps/hatch/integrations/ninjaforms/987818/create-contacts-in-hatch-from-new-form-submissions-in-ninja-forms
   template: https://zapier.com/apps/hatch/integrations/ninjaforms/987818/create-contacts-in-hatch-from-new-form-submissions-in-ninja-forms
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: hatch-create-contacts-in-hatch-from-new-spreadsheet-rows-in-google-sheets
@@ -69,6 +73,7 @@
   evidence: https://zapier.com/apps/google-sheets/integrations/hatch/1221853/create-contacts-in-hatch-from-new-spreadsheet-rows-in-google-sheets
   template: https://zapier.com/apps/google-sheets/integrations/hatch/1221853/create-contacts-in-hatch-from-new-spreadsheet-rows-in-google-sheets
   source: template
+  relationship: ipaas-bridge
   status: pending-generation
   arazzo: null
 - slug: hatch-create-hatch-contacts-from-new-unbounce-form-submissions
@@ -83,6 +88,7 @@
   evidence: https://zapier.com/apps/hatch/integrations/unbounce/1240278/create-hatch-contacts-from-new-unbounce-form-submissions
   template: https://zapier.com/apps/hatch/integrations/unbounce/1240278/create-hatch-contacts-from-new-unbounce-form-submissions
   source: template
+  relationship: ipaas-bridge
   status: pending-generation
   arazzo: null
 - slug: hatch-create-hatch-contacts-from-new-or-updated-google-sheets-rows
@@ -97,10 +103,12 @@
   evidence: https://zapier.com/apps/google-sheets/integrations/hatch/1259236/create-hatch-contacts-from-new-or-updated-google-sheets-rows
   template: https://zapier.com/apps/google-sheets/integrations/hatch/1259236/create-hatch-contacts-from-new-or-updated-google-sheets-rows
   source: template
+  relationship: ipaas-bridge
   status: pending-generation
   arazzo: null
 - slug: hatch-create-hatch-contacts-from-new-updates-in-monday-com-boards
   label: Create Hatch contacts from new updates in monday.com boards
+  partner: monday-com
   partner_name: monday.com
   category: Project Management
   use_case: Create Hatch contacts from new updates in monday.com boards
@@ -110,10 +118,12 @@
   evidence: https://zapier.com/apps/hatch/integrations/monday/1263451/create-hatch-contacts-from-new-updates-in-mondaycom-boards
   template: https://zapier.com/apps/hatch/integrations/monday/1263451/create-hatch-contacts-from-new-updates-in-mondaycom-boards
   source: template
-  status: pending-partner-spec
+  relationship: ipaas-bridge
+  status: pending-generation
   arazzo: null
 - slug: hatch-create-hatch-contacts-from-new-monday-com-board-items
   label: Create Hatch contacts from new monday.com board items
+  partner: monday-com
   partner_name: monday.com
   category: Project Management
   use_case: Create Hatch contacts from new monday.com board items
@@ -123,276 +133,8 @@
   evidence: https://zapier.com/apps/hatch/integrations/monday/1263566/create-hatch-contacts-from-new-mondaycom-board-items
   template: https://zapier.com/apps/hatch/integrations/monday/1263566/create-hatch-contacts-from-new-mondaycom-board-items
   source: template
-  status: pending-partner-spec
-  arazzo: null
-- slug: hatch-gravity-forms
-  label: Gravity Forms
-  partner: gravity-forms
-  partner_name: Gravity Forms
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/gravity-forms
-  source: edge
+  relationship: ipaas-bridge
   status: pending-generation
-  arazzo: null
-- slug: hatch-callrail
-  label: CallRail
-  partner: callrail
-  partner_name: CallRail
-  category: Call Tracking
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/callrail
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: hatch-typeform
-  label: Typeform
-  partner: typeform
-  partner_name: Typeform
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/typeform
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: hatch-google-forms
-  label: Google Forms
-  partner: google-forms
-  partner_name: Google Forms
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/google-forms
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: hatch-facebook-lead-ads-for-business-admins
-  label: Facebook Lead Ads (for Business admins)
-  partner_name: Facebook Lead Ads (for Business admins)
-  category: Ads & Conversion
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/facebook-lead-ads-beta
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: hatch-acuity-scheduling
-  label: Acuity Scheduling
-  partner: acuity-scheduling
-  partner_name: Acuity Scheduling
-  category: Scheduling & Booking
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/acuity-scheduling
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: hatch-instapage
-  label: Instapage
-  partner: instapage
-  partner_name: Instapage
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/instapage
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: hatch-whatconverts
-  label: WhatConverts
-  partner_name: WhatConverts
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/whatconverts
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: hatch-wufoo
-  label: Wufoo
-  partner: wufoo
-  partner_name: Wufoo
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/wufoo
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: hatch-squarespace-forms
-  label: Squarespace Forms
-  partner: squarespace
-  partner_name: Squarespace Forms
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/squarespace-forms
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: hatch-servicetitan
-  label: ServiceTitan
-  partner: servicetitan
-  partner_name: ServiceTitan
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/servicetitan
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: hatch-formidable-forms
-  label: Formidable Forms
-  partner_name: Formidable Forms
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/formidable
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: hatch-spotio
-  label: Spotio
-  partner: spotio
-  partner_name: Spotio
-  category: Sales & CRM
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/spotio2
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: hatch-clickfunnels-classic
-  label: ClickFunnels Classic
-  partner: clickfunnels
-  partner_name: ClickFunnels Classic
-  category: Marketing Automation
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/clickfunnels-classic
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: hatch-nextdoor
-  label: Nextdoor
-  partner: nextdoor
-  partner_name: Nextdoor
-  category: Ads & Conversion
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/nextdoor
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: hatch-jotform
-  label: Jotform
-  partner: jotform
-  partner_name: Jotform
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/jotform
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: hatch-microsoft-outlook
-  label: Microsoft Outlook
-  partner: microsoft-outlook
-  partner_name: Microsoft Outlook
-  category: Calendar
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/microsoft-outlook
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: hatch-mailchimp
-  label: Mailchimp
-  partner: mailchimp
-  partner_name: Mailchimp
-  category: Marketing Automation
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/mailchimp
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: hatch-service-fusion
-  label: Service Fusion
-  partner: servicefusion
-  partner_name: Service Fusion
-  category: eCommerce
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/service-fusion
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: hatch-localiq
-  label: LocaliQ
-  partner_name: LocaliQ
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/localiq
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: hatch-predictive-sales-ai
-  label: Predictive Sales AI
-  partner_name: Predictive Sales AI
-  category: Marketing Automation
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/predictive-sales-ai
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: hatch-pipeline-crm
-  label: Pipeline CRM
-  partner_name: Pipeline CRM
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/pipelinedeals
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: hatch-phoneburner
-  label: PhoneBurner
-  partner_name: PhoneBurner
-  category: Phone & SMS
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/hatch/integrations/phoneburner
-  source: edge
-  status: pending-partner-spec
   arazzo: null
 - slug: hatch-servicetitan-own
   label: ServiceTitan (own)
@@ -431,4 +173,297 @@
     beta: false
     builder: unknown (not in the directory record)
   status: not-a-workflow
+  arazzo: null
+- slug: hatch-gravity-forms
+  label: Gravity Forms
+  partner: gravity-forms
+  partner_name: Gravity Forms
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/gravity-forms
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: hatch-callrail
+  label: CallRail
+  partner: callrail
+  partner_name: CallRail
+  category: Call Tracking
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/callrail
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: hatch-typeform
+  label: Typeform
+  partner: typeform
+  partner_name: Typeform
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/typeform
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: hatch-google-forms
+  label: Google Forms
+  partner: google-forms
+  partner_name: Google Forms
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/google-forms
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: hatch-facebook-lead-ads-for-business-admins
+  label: Facebook Lead Ads (for Business admins)
+  partner: facebook-lead-ads
+  partner_name: Facebook Lead Ads (for Business admins)
+  category: Ads & Conversion
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/facebook-lead-ads-beta
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: hatch-acuity-scheduling
+  label: Acuity Scheduling
+  partner: acuity-scheduling
+  partner_name: Acuity Scheduling
+  category: Scheduling & Booking
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/acuity-scheduling
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: hatch-instapage
+  label: Instapage
+  partner: instapage
+  partner_name: Instapage
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/instapage
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: hatch-whatconverts
+  label: WhatConverts
+  partner_name: WhatConverts
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/whatconverts
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: hatch-wufoo
+  label: Wufoo
+  partner: wufoo
+  partner_name: Wufoo
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/wufoo
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: hatch-squarespace-forms
+  label: Squarespace Forms
+  partner: squarespace
+  partner_name: Squarespace Forms
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/squarespace-forms
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: hatch-servicetitan
+  label: ServiceTitan
+  partner: servicetitan
+  partner_name: ServiceTitan
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/servicetitan
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: hatch-formidable-forms
+  label: Formidable Forms
+  partner_name: Formidable Forms
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/formidable
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: hatch-spotio
+  label: Spotio
+  partner: spotio
+  partner_name: Spotio
+  category: Sales & CRM
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/spotio2
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: hatch-clickfunnels-classic
+  label: ClickFunnels Classic
+  partner: clickfunnels
+  partner_name: ClickFunnels Classic
+  category: Marketing Automation
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/clickfunnels-classic
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: hatch-nextdoor
+  label: Nextdoor
+  partner: nextdoor
+  partner_name: Nextdoor
+  category: Ads & Conversion
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/nextdoor
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: hatch-jotform
+  label: Jotform
+  partner: jotform
+  partner_name: Jotform
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/jotform
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: hatch-microsoft-outlook
+  label: Microsoft Outlook
+  partner: microsoft-outlook
+  partner_name: Microsoft Outlook
+  category: Calendar
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/microsoft-outlook
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: hatch-mailchimp
+  label: Mailchimp
+  partner: mailchimp
+  partner_name: Mailchimp
+  category: Marketing Automation
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/mailchimp
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: hatch-service-fusion
+  label: Service Fusion
+  partner: servicefusion
+  partner_name: Service Fusion
+  category: eCommerce
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/service-fusion
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: hatch-localiq
+  label: LocaliQ
+  partner_name: LocaliQ
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/localiq
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: hatch-predictive-sales-ai
+  label: Predictive Sales AI
+  partner_name: Predictive Sales AI
+  category: Marketing Automation
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/predictive-sales-ai
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: hatch-pipeline-crm
+  label: Pipeline CRM
+  partner_name: Pipeline CRM
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/pipelinedeals
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: hatch-phoneburner
+  label: PhoneBurner
+  partner_name: PhoneBurner
+  category: Phone & SMS
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/hatch/integrations/phoneburner
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
   arazzo: null
